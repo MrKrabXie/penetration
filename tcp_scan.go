@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func main() {
+func mainbk2() {
 	if len(os.Args) != 3 {
 		fmt.Println("Usage: tcp_scan <ip> <port_range>")
 		os.Exit(1)
